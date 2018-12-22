@@ -1,0 +1,4 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <video src="http://106.15.224.78:8080/images/map.mp4" controls></video>
+</view>

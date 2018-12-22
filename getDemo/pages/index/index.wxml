@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap='clickFun'>点击查看信息</button>
+  <input class='inputclient' bindinput="bindKeyInput" placeholder="输入同步到view中" />
+  <text class='userinfo-text'>名字:{{userInfoName}}</text> 
+  <text class='userinfo-text'>邮箱：{{userInfoEmail}}</text>
+  <text class='userinfo-text'>学号：{{userInfoID}}</text>
+  <text class='userinfo-text'>QQ：{{userInfoQQ}}</text>
+</view>
